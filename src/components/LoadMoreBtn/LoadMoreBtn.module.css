@@ -1,0 +1,21 @@
+.btnMore {
+    width: 200px;
+    height: 50px;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, #511500, #f5f3f2, #a8a7a7);
+    border: none;
+    box-shadow: none;
+    background: green;
+    border-radius: 5px;
+    border: 2px solid #fff;
+  }
+  .btnMore:hover {
+    background: gold;
+    color: #ffffff;
+  }
+  @media screen and (max-width: 425px) {
+    .btnMore {
+      width: 100%;
+    }
+  }

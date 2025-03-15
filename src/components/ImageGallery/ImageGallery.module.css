@@ -1,0 +1,30 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-block: 20px;
+    padding-inline-start: 0px;
+  }
+  .list li {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .list {
+      gap: 5px;
+      padding: 3px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .list li {
+      max-width: 250px;
+    }
+  }
